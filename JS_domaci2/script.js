@@ -30,7 +30,11 @@ function stvoriSve() {
 function rokaj(e) {
   e.preventDefault();
   stvoriSve();
-  if (utrkaValues.auto1.brzina && utrkaValues.auto2.brzina) {
+  if (
+    utrkaValues.auto1.brzina &&
+    utrkaValues.auto2.brzina &&
+    utrkaValues.duljina
+  ) {
     if (utrkaValues.auto1.vrijeme > utrkaValues.auto2.vrijeme) {
       utrkaElementi.rezultati.innerHTML = `<p style="color:${utrkaValues.auto3.boja}">${utrkaValues.auto2.nadimak} je pobijedio! Prosao je stazu za ${utrkaValues.auto2.vrijeme} sati.`;
     } else if (utrkaValues.auto1.vrijeme < utrkaValues.auto2.vrijeme) {

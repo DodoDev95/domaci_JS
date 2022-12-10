@@ -43,6 +43,6 @@ function rokaj(e) {
       utrkaElementi.rezultati.innerHTML = `<p>Stigli su do cilja u isto vrijeme!</p>`;
     }
   } else {
-    utrkaElementi.rezultati.innerHTML = `<p>Molimo unesite brzine!</p>`;
+    utrkaElementi.rezultati.innerHTML = `<p>Molimo unesite brzine i/ili duljinu staze!</p>`;
   }
 }

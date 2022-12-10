@@ -32,9 +32,9 @@ function rokaj(e) {
   stvoriSve();
   if (utrkaValues.auto1.brzina && utrkaValues.auto2.brzina) {
     if (utrkaValues.auto1.vrijeme > utrkaValues.auto2.vrijeme) {
-      utrkaElementi.rezultati.innerHTML = `<p style="color:${utrkaValues.auto1.boja}">${utrkaValues.auto1.nadimak} je pobijedio! Prosao je stazu za ${utrkaValues.auto1.vrijeme} sati.`;
+      utrkaElementi.rezultati.innerHTML = `<p style="color:${utrkaValues.auto3.boja}">${utrkaValues.auto2.nadimak} je pobijedio! Prosao je stazu za ${utrkaValues.auto2.vrijeme} sati.`;
     } else if (utrkaValues.auto1.vrijeme < utrkaValues.auto2.vrijeme) {
-      utrkaElementi.rezultati.innerHTML = `<p style="color:${utrkaValues.auto2.boja}">${utrkaValues.auto2.nadimak} je pobijedio! Prosao je stazu za ${utrkaValues.auto2.vrijeme} sati.</p>`;
+      utrkaElementi.rezultati.innerHTML = `<p style="color:${utrkaValues.auto1.boja}">${utrkaValues.auto1.nadimak} je pobijedio! Prosao je stazu za ${utrkaValues.auto1.vrijeme} sati.</p>`;
     } else {
       utrkaElementi.rezultati.innerHTML = `<p>Stigli su do cilja u isto vrijeme!</p>`;
     }

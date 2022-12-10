@@ -18,13 +18,13 @@ function stvoriSve() {
     nadimak: utrkaElementi.nadimak.value,
     boja: utrkaElementi.boja.value,
     brzina: utrkaElementi.brzina.value,
-    vrijeme: utrkaElementi.brzina.value / utrkaValues.duljina,
+    vrijeme: utrkaValues.duljina / utrkaElementi.brzina.value,
   };
   utrkaValues.auto2 = {
     nadimak: utrkaElementi.nadimak2.value,
     boja: utrkaElementi.boja2.value,
     brzina: utrkaElementi.brzina2.value,
-    vrijeme: utrkaElementi.brzina2.value / utrkaValues.duljina,
+    vrijeme: utrkaValues.duljina / utrkaElementi.brzina2.value,
   };
 }
 function rokaj(e) {

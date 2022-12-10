@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaci 1 jS</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Upiši svoje ime</label> <br />
+      <input type="text" id="name" name="name" /> <br />
+      <label for="poruka">Upiši svoju poruku</label> <br />
+      <textarea name="poruka" id="poruka" cols="30" rows="10"></textarea> <br />
+      <br />
+      <br />
+      <button id="stats-button" onclick="statistika(event)">
+        Prikaži statistiku
+      </button>
+      <br /><br /><br /><br />
+      <p id="statistika">Statistički podaci tvoje poruke:</p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

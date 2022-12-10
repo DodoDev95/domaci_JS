@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS domaći 2</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Auto 1</legend>
+      <form>
+    <div class="autoUI1" id="autoUI1">
+      <label for="nadimak">Unesi nadimak svog auta:</label>
+      <input type="text" id="nadimak" required/>
+      <label for="boja">Odaberi boju</label>
+      <input type="color" id="colorpicker" value="#ff0000" required/>
+      <label for="brzina">Kojom brzinom će ići tvoj auto?</label>
+      <input type="number" id="brzina" min="1" max="500" required/>
+    </form>
+  </fieldset>
+    </div>
+
+    <div class="autoUI2" id="autoUI2">
+      <fieldset>
+        <legend>Auto 2</legend>
+      <form>
+      <label for="nadimak2">Unesi nadimak svog auta:</label>
+      <input type="text" id="nadimak2" required/>
+      <label for="boja2">Odaberi boju</label>
+      <input type="color" id="colorpicker2" value="#ff0000" required/>
+      <label for="brzina2">Kojom brzinom će ići tvoj auto?</label>
+      <input type="number" id="brzina2" min="1" max="500" required/>
+    </form>
+  </fieldset>
+    </div>
+
+    <div class="utrkaUI" id="utrkaUI">
+      <label for="duljina">Odaberi duljinu staze</label>
+      <input type="number" id="duljina" min="10" max="2000" required/>
+      <input type="submit" onclick="rokaj(event)" value="START!">
+    </div>
+    <div  id="rezultati">
+    
+  </div>
+    
+  </body>
+</html>

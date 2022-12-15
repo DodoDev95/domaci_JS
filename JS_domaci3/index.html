@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS domaci 3</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Pogodi broj!</h1>
+      <p>Možeš li pogoditi zamišljeni broj između 1 i 100?</p>
+      <label for="odaberiBroj">Upiši broj</label>
+      <input type="number" id="odaberiBroj" min="1" max="100" /> <br />
+      <br />
+      <input
+        type="submit"
+        id="gumb"
+        value="Pogadaj"
+        onclick="pogodiBroj(event)"
+      />
+      <br />
+      <p id="brojPokusaja">Broj pokusaja:</p>
+      <br />
+
+      <p id="infoBox"></p>
+    </div>
+  </body>
+</html>
